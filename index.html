@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f4ef">
+    <meta name="description"
+        content="Priti Patel is a software developer who enjoys building interactive web applications and thoughtful digital experiences.">
+    <title>Priti Patel | Software Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" id="top">
+        <a class="wordmark" href="#top" aria-label="Priti Patel, home">pp<span>.</span></a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"
+            aria-label="Open navigation">
+            <span></span><span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+            <a href="#about">About</a>
+            <a href="#toolkit">Toolkit</a>
+            <a href="#contact">Contact</a>
+            <button class="theme-toggle" type="button" aria-label="Switch to dark theme" title="Switch theme">
+                <svg class="theme-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <circle cx="12" cy="12" r="4"></circle>
+                    <path
+                        d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42">
+                    </path>
+                </svg>
+            </button>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section class="hero page-wrap" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="status-dot"></span> SOFTWARE DEVELOPER <span
+                        class="eyebrow-divider">/</span> ALWAYS LEARNING</p>
+                <h1 id="hero-title">Thoughtful code.<br><span>Better experiences.</span></h1>
+                <p class="hero-intro">Hi, I’m <strong>Priti Patel</strong> — a passionate software developer who enjoys
+                    building interactive web applications, solving problems, learning new technologies, and creating
+                    excellent user experiences.</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#about">Get to know me <span
+                            aria-hidden="true">&#8595;</span></a>
+                    <a class="text-link" href="#contact">Let’s talk <span aria-hidden="true">&#8599;</span></a>
+                </div>
+                <div class="hero-note"><span class="note-line"></span><span>Curiosity in. Good ideas out.</span></div>
+            </div>
+
+            <div class="hero-visual" aria-label="A developer workspace with a glimpse of code">
+                <img class="workspace-image"
+                    src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"
+                    alt="Laptop displaying code on a bright desk" fetchpriority="high">
+                <div class="image-wash" aria-hidden="true"></div>
+                <div class="code-window" aria-hidden="true">
+                    <div class="window-bar"><span></span><span></span><span></span><i>good-things.js</i></div>
+                    <div class="code-lines">
+                        <p><b>01</b> <span class="code-keyword">const</span> idea = <span class="code-string">"make it
+                                useful"</span>;</p>
+                        <p><b>02</b> <span class="code-keyword">function</span> <span
+                                class="code-function">build</span>(idea) {</p>
+                        <p><b>03</b> &nbsp; <span class="code-keyword">return</span> idea + <span class="code-string">"
+                                with care"</span>;</p>
+                        <p><b>04</b> }</p>
+                        <p><b>05</b> <span class="code-function">build</span>(idea);<span class="cursor"></span></p>
+                    </div>
+                </div>
+                <div class="visual-caption"><span class="caption-mark">&#10038;</span><span>Made with intention<br>and a
+                        little curiosity.</span></div>
+                <span class="visual-index">01 / THE PROCESS</span>
+            </div>
+        </section>
+
+        <div class="ticker" aria-label="Build with curiosity, care, and purpose">
+            <div class="ticker-track" aria-hidden="true"><span>BUILD WITH CURIOSITY</span><i>&#10038;</i><span>MAKE IT
+                    FEEL RIGHT</span><i>&#10038;</i><span>KEEP GETTING BETTER</span><i>&#10038;</i><span>BUILD WITH
+                    CURIOSITY</span><i>&#10038;</i><span>MAKE IT FEEL RIGHT</span><i>&#10038;</i><span>KEEP GETTING
+                    BETTER</span><i>&#10038;</i></div>
+        </div>
+
+        <section class="about section-wrap" id="about" aria-labelledby="about-title">
+            <div class="section-label"><span>01</span><span>THE PERSON BEHIND THE PIXELS</span></div>
+            <div class="about-content reveal">
+                <h2 id="about-title">I like solving the little things that make a <em>big difference.</em></h2>
+                <div class="about-details">
+                    <p>I’m drawn to the space where logic meets feeling: where a clear solution also feels effortless to
+                        use. I enjoy exploring a problem, working through the details, and turning an idea into an
+                        interactive experience.</p>
+                    <p>There’s always something new to learn, and that’s part of the fun. I bring curiosity to the
+                        process, care to the craft, and a user-first mindset to every screen.</p>
+                    <a class="text-link underlined-link" href="#contact">Have something in mind? <span
+                            aria-hidden="true">&#8599;</span></a>
+                </div>
+            </div>
+            <div class="principles" aria-label="Working principles">
+                <article class="principle reveal"><span class="principle-number">A / 01</span>
+                    <h3>Make it clear</h3>
+                    <p>Simple, intuitive experiences help people get where they’re going.</p>
+                </article>
+                <article class="principle reveal"><span class="principle-number">A / 02</span>
+                    <h3>Think it through</h3>
+                    <p>Good problem-solving starts with understanding what matters.</p>
+                </article>
+                <article class="principle reveal"><span class="principle-number">A / 03</span>
+                    <h3>Stay curious</h3>
+                    <p>Keep exploring, keep learning, and let the work get better.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="toolkit section-wrap" id="toolkit" aria-labelledby="toolkit-title">
+            <div class="section-label"><span>02</span><span>TOOLS &amp; MINDSET</span></div>
+            <div class="toolkit-content reveal">
+                <div class="toolkit-heading">
+                    <h2 id="toolkit-title">A good toolkit<br><em>keeps growing.</em></h2>
+                    <p>Technology is the medium. Thoughtful problem-solving is the practice.</p>
+                </div>
+                <div class="toolkit-list">
+                    <div class="tool-group">
+                        <h3>WEB FOUNDATIONS</h3>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="tool-group">
+                        <h3>HOW I APPROACH IT</h3>
+                        <ul>
+                            <li>Interactive UI</li>
+                            <li>Responsive design</li>
+                            <li>Problem-solving</li>
+                            <li>Continuous learning</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="toolkit-foot"><span>THE BEST TOOL IS THE ONE THAT SERVES THE PERSON USING IT.</span><span
+                    aria-hidden="true">&#8599;</span></div>
+        </section>
+
+        <section class="contact section-wrap" id="contact" aria-labelledby="contact-title">
+            <div class="section-label"><span>03</span><span>START A CONVERSATION</span></div>
+            <div class="contact-content reveal">
+                <div>
+                    <p class="eyebrow">GOT A GOOD QUESTION OR IDEA?</p>
+                    <h2 id="contact-title">Let’s make<br><em>something matter.</em></h2>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <label for="sender-email">Your email</label>
+                    <input id="sender-email" name="email" type="email" placeholder="you@example.com"
+                        autocomplete="email" required>
+                    <label for="sender-message">A little about it</label>
+                    <textarea id="sender-message" name="message" rows="3" placeholder="What’s on your mind?"
+                        required></textarea>
+                    <button class="button button-primary" type="submit">Prepare a message <span
+                            aria-hidden="true">&#8599;</span></button>
+                    <p class="form-note" id="form-note" role="status">Your email app will open with a draft you can
+                        review and send.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer"><a class="wordmark" href="#top" aria-label="Back to top">pp<span>.</span></a>
+        <p>Designed with care by Priti Patel.</p><span class="footer-year">&#169; <span id="year"></span></span>
+    </footer>
+</body>
+
+</html>
